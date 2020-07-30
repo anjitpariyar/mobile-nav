@@ -137,3 +137,9 @@ nav{
 .nav_link:first-child, .nav_link:last-child{
 	transform: translateY(23px);
 }
+
+@media only screen and (max-width: 330px) {
+  body {
+    font-size: 14px;
+  }
+}
